@@ -1,2 +1,2 @@
 File 1 master
-*write function that multiplies 2 int and return int:
+*write function that multiplies 2 int and return int :
