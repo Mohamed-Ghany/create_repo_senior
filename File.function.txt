@@ -1,2 +1,32 @@
 File 1 master
 *write function that multiplies 2 int and return int :
+#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_NONSTDC_NO_WARNINGS
+
+//write function that multiplies 2 int and return int
+//3 variables : 1st value A , 2nd value B & the result Z
+
+#include <stdio.h>
+
+int Multiply(int A, int B);
+int main()
+{
+	int A;
+	int B;
+	int Z;
+	printf("Please enter the 1st number: ");
+	scanf("%d", &A);
+	printf("Please enter the 2nd number: ");
+	scanf("%d", &B);
+
+	Z = Multiply(A ,B );
+	printf("\nThe Multiplication result for %d*%d is = %d\n", A,B,Z);
+	
+}
+
+int Multiply(int A, int B)  //implementation
+{
+	int z;
+	z = A * B;
+	return z;
+}
